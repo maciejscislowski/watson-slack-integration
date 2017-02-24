@@ -1,0 +1,8 @@
+---
+applications:
+- name: scislowski-watson-slack-integration
+  memory: 512M
+  path: target/watson-slack-integration-1.0.0-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  domain: mybluemix.net
+  timeout: 60
